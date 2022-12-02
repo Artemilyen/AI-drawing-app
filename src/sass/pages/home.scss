@@ -1,0 +1,7 @@
+//импортируем нужные блоки, чтобы потом компилировать только этот файл
+@import url(../../../vendor/normalize.css);
+@import url(../../../vendor/fonts/inter.css);
+@import url(../_variables.scss);
+@import url(../_mixins.scss);
+@import '../blocks/page.scss';
+@import '../blocks/header.scss';
