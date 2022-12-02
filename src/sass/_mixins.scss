@@ -1,0 +1,13 @@
+  //mixin, устанавливающий ширину экрана и исполняющий свойства, указанные вместо content
+  //удобно переиспользовать в коде, не запоминая точную ширину для media query
+  @mixin tablet {
+    @media (max-width: 800px) {
+      @content;
+    }
+  }
+  
+  @mixin mobile {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
